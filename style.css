@@ -3,6 +3,7 @@
 html {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 62.5%;
+    font-weight: 400;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
@@ -22,10 +23,48 @@ main {
     justify-content: flex-end;
 }
 
+.img {
+    position: relative;
+}
+
 .imgs {
     width: 50%;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-position: right 90%;
+    position: relative;
+    overflow: hidden;
+}
+
+#cube {
+    position: absolute;
+    left: -70px;
+    top: calc(50% - 70px);
+    z-index: 1;
+    max-width: 150px;
+}
+
+#woman-desktop {
+    position: absolute;
+    left: -15%;
+    top: 25%;
+    max-width: 100%;
 }
 
 .qa-panel {
     width: 50%;
+    padding: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.question {
+    font-size: 1.5rem;
+    color: hsl(237, 12%, 33%);
+}
+
+.answer {
+    font-size: 1.4rem;
+    color: hsl(240, 6%, 50%);
 }
