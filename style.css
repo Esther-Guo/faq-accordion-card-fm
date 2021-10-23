@@ -18,7 +18,7 @@ main {
     width: 60%;
     background-color:white;
     border-radius: 2rem;
-    margin: 5rem auto;
+    margin: 10rem auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -30,7 +30,9 @@ main {
 .imgs {
     width: 50%;
     background-image: url(./images/bg-pattern-desktop.svg);
-    background-position: right 90%;
+    background-size: 700px;
+    background-position: 108% 76%;
+    background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
 }
@@ -46,7 +48,7 @@ main {
 #woman-desktop {
     position: absolute;
     left: -15%;
-    top: 25%;
+    top: 14%;
     max-width: 100%;
 }
 
@@ -87,3 +89,40 @@ hr {
     display: none;
     margin-top: 0;
 }
+
+@media (max-width: 374px){
+    .mobile-hidden{
+        display:none
+    }
+    main {
+        min-width: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .imgs {
+        width: 100%;
+        height: 110px;
+        overflow: visible;
+        background-position: 48% 100%;
+        background-repeat: no-repeat;
+        background-size: 240px;
+    }
+    #woman-mobile {
+        position: absolute;
+        width: 70%;
+        top: -100px;
+        left: 47px;
+    }
+    .qa-panel {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px){.desktop-hidden{display:none}}
