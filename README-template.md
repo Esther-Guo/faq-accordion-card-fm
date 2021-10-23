@@ -71,7 +71,7 @@ The property of gradient background is `background-image`!
 My AHA moment: Absolute Positioning Inside Relative Positioning.  
 When dealing with the cube and woman pictures, we set the div containing them as `position:relative;` and set the images as `position: absolute;`. Then we are able to set image position relative to the div. Otherwise, if we forget to set the div relative, the images would be relative to the body, which we don't want.
 
-
+`visibility: hidden` would still take up space. `display:none` can fix this issue.
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 

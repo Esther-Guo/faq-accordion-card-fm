@@ -78,4 +78,5 @@ h2 {
 .answer {
     font-size: 1.4rem;
     color: hsl(240, 6%, 50%);
+    display: none;
 }
