@@ -59,9 +59,20 @@ h2 {
     font-size: 3rem;
 }
 
+.question-board {
+    position: relative;
+}
+
 .question {
     font-size: 1.5rem;
     color: hsl(237, 12%, 33%);
+    display: inline-block;
+}
+
+#arrow {
+    position: absolute;
+    right: 5px;
+    top: 45%;
 }
 
 .answer {
