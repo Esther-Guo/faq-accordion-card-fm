@@ -53,6 +53,8 @@ main {
 .qa-panel {
     width: 50%;
     padding: 5rem;
+    line-height: 2rem;
+    padding-top: 3rem;
 }
 
 h2 {
@@ -61,6 +63,10 @@ h2 {
 
 .question-board {
     position: relative;
+}
+
+hr {
+    margin: 0;
 }
 
 .question {
@@ -79,4 +85,5 @@ h2 {
     font-size: 1.4rem;
     color: hsl(240, 6%, 50%);
     display: none;
+    margin-top: 0;
 }
